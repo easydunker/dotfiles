@@ -1,6 +1,6 @@
 [user]
-    name = Marco Morais
-    email = marcoemorais@yahoo.com
+    name = Yingyi Hu
+    email = yingyi.hu@nauto.com
 [core]
     editor = vim
     excludesfile = ~/.gitignore_global
@@ -9,7 +9,7 @@
 [alias]
     cb  = checkout -b
     cl  = config --list
-    b   = branch
+    br   = branch
     d   = diff
     fu  = fetch upstream
     fo  = fetch origin
@@ -20,7 +20,7 @@
     ri  = rebase -i
     ru  = rebase upstream/master
     ro  = rebase origin/master
-    s   = status
+    st   = status
     ss  = show staging
     su  = submodule update --init --recursive
 [url "git@github.com:"]

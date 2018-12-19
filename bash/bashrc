@@ -72,7 +72,7 @@ alias jsonpp='python -msjson.tool'
 alias la='ls -lGa '
 alias lh='ls -lGh '
 alias ll='ls -lG '
-alias py='ping -c 1 www.yahoo.com'
+alias py='ping -c 1 www.google.com'
 alias src='. ~/.bashrc'
 alias ssh='TERM=xterm ssh'
 alias tsd='date -ur '
@@ -115,9 +115,9 @@ fi
 
 # direnv: environment switcher
 # https://github.com/direnv/direnv
-eval "$(direnv hook bash)"
+# eval "$(direnv hook bash)"
 
 # pyenv: python switcher
 # https://github.com/pyenv/pyenv
-eval "$(pyenv init -)"
+# eval "$(pyenv init -)"
 
