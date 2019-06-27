@@ -1,6 +1,6 @@
 [user]
     name = Yingyi Hu
-    email = yingyi.hu@nauto.com
+    email = huyingyi@bytedance.com
 [core]
     editor = vim
     excludesfile = ~/.gitignore_global
@@ -23,8 +23,19 @@
     st   = status
     ss  = show staging
     su  = submodule update --init --recursive
+    co = checkout
 [url "git@github.com:"]
     insteadOf = https://github.com/
+[url "gitr"]
+    insteadOf = git@git.byted.org
+[url "git@code.byted.org:"]
+    insteadOf = https://code.byted.org/
+[url "ssh://huyingyi@git.byted.org:29418"]
+    insteadOf = https://git.byted.org
+[url "https://github.com/golang/"]
+    insteadOf = https://golang.org/x/
+[credential]
+    helper = store
 [filter "lfs"]
     smudge = git-lfs smudge -- %f
     process = git-lfs filter-process

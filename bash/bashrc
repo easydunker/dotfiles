@@ -8,6 +8,8 @@ fi
 # Set vi key mappings in shell.
 set -o vi
 
+# Set emacs mappings in bash
+set -o emacs
 # Make sure tab-completion works.
 bind '"\C-i":complete'
 
